@@ -7,8 +7,7 @@
 	    <link href="style.css" rel="stylesheet">
 </head>
 	<body>
-		<div class="container">
-			<h1>BMI Calculator</h1>
+		<div class="bmi-container">
 			<form id="bmi-form">
 				<div class="input_Text">
 					<label for="weight">Weight:</label>
@@ -16,29 +15,24 @@
 					<select id="weight-unit">
 						<option value="kg">kg</option>
 						<option value="pounds">pounds</option>
-					</select>
-				</div>
-				<div class="input-text">
+					   </select>
+				      </div>
+				     <div class="input-text">
 					<label for="text">Height:</label>
 					<input type="text" id="height" required>
 					<select id="height-unit">
-						<option value="cm">cm</option>
-						<option value="inches">inches</option>
-					</select>
-					
-				</div>
-<div class="buttons">
+					<option value="cm">cm</option>
+					 <option value="inches">inches</option>
+					</select>	
+				   </div>
+                 <div class="buttons">
 	<div class="submit_button"><button class="button" onclick="calculateBMI()">SUBMIT</button></div>
 	<div class="reset_button"><button type="button"onclick="editBMI()">RESET</button></div>
-</div>
-				
-			</form>
-			<div id="result"></div>
-		</div>
-		
-		  
-	<script src="/dom.js"></script>
-	</body>
+              </div>
+	        </form>
+       <div id="result"></div>
+    </div>
+</body>
 </html>
 
     

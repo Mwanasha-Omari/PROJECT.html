@@ -1,5 +1,7 @@
-body{
-background-color: aqua;
+
+.bmi-container{
+margin-left:700px;
+margin-top:300px ;
 
 }
 
@@ -65,6 +67,6 @@ color: white;
   border-radius: 25px;
   border: none;
   margin-top: 50px;
-background-color: red;
+background-color: crimson;
 color: white;
 }
